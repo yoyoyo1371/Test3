@@ -1,0 +1,541 @@
+﻿/*
+Kirka.io Public Browser CSS
+Made By: NizzQ
+
+Recommended Resolution: 1920x1080 FULLSCREEN
+*/
+
+/* Font */
+@font-face {
+    font-family: gamefont;
+    src: url(https://raw.githubusercontent.com/Yadub/BoulderBox/master/fonts/Fontfabric---Mont-Heavy.otf);
+}
+
+* {
+    font-family: gamefont;
+}
+
+/* Animations */
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 5px #fff, 0 0 5px #ae50e4, 0 0 5px #ae50e4, 0 0 5px #ae50e4, 0 0 6px #ae50e4, 0 0 7px #ae50e4, 0 0 8px #ae50e4;
+    }
+}
+
+@keyframes animate {
+    0% {
+        background-position: 0 0%;
+    }
+
+    to {
+        background-position: 0 100%;
+    }
+}
+
+/*Background */
+.bg-radial {
+    display: none;
+}
+.interface .background {
+    background: url(https://images.alphacoders.com/130/1301138.jpg) no-repeat center center !important;
+    background-size: cover !important;
+    animation: animate 10s linear infinite !important;
+}
+
+
+.pattern-bg {
+    background: linear-gradient(103.28deg, #000000 7.06%, #000000 90.75%) !important;
+    animation: none;
+}
+
+/*Ad Removal */
+#ad-bottom, #ad-left {
+    visibility: hidden;
+}
+
+/* Stream */
+.live-streams {
+    opacity: 0;
+    transition-duration: 0.5s;
+}
+
+    .live-streams:hover {
+        opacity: 1;
+    }
+
+/* Lobby */
+.promo-link-btn {
+    display: none !important;
+}
+
+.soc-group:nth-child(1) {
+    display: none;
+}
+
+.soc-group:nth-child(2) {
+    background: transparent !important;
+    border-top: none;
+    border-bottom: none;
+    border-left: transparent !important;
+    border-right: transparent !important;
+    height: 60px;
+    margin-top: 30px;
+}
+
+    .soc-group:nth-child(2):hover {
+        background: none !important;
+    }
+
+.interface .logo {
+    display: none;
+}
+
+.left-icons .icon-btn[style="--i:5;"] {
+    background: url(https://images6.alphacoders.com/129/1297089.png)no-repeat center center !important;
+    background-size: cover !important;
+    border-top: transparent !important;
+    border-bottom: transparent !important;
+    border-left: transparent !important;
+    border-right: transparent !important;
+}
+
+#icon-store {
+    background: url(https://preview.redd.it/nice-wallpaper-at-end-of-ep-7-i-hope-this-hasnt-been-posted-v0-z97e9cpv10ja1.png?width=1080&crop=smart&auto=webp&s=141725098974b93bae61fc1aa67f803935d10a23) no-repeat center center !important;
+    background-size: cover !important;
+    border-top: transparent !important;
+    border-bottom: transparent !important;
+    border-left: transparent !important;
+    border-right: transparent !important;
+    box-shadow: none !important;
+}
+
+.left-icons .icon-btn:nth-child(1) {
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi644EQg4Djt4mINoUne-AnUzp2tT_lbzSdg&s) no-repeat center center !important;
+    background-size: cover !important;
+    border-top: transparent !important;
+    border-bottom: transparent;
+    border-left: transparent !important;
+    border-right: transparent !important;
+    box-shadow: none;
+}
+
+.icon-btn:nth-child(3) {
+    background: url(https://play.vsthemes.org/nova/1024576-1/b72/292b72195127befb1ddaa41501d27993.webp) no-repeat center center !important;
+    background-size: cover !important;
+    border-bottom: transparent;
+    border-top: transparent;
+    border-left: transparent !important;
+    border-right: transparent !important;
+    box-shadow: none;
+}
+
+.icon-btn:nth-child(5) {
+    background: url(https://i0.wp.com/anitrendz.net/news/wp-content/uploads/2023/01/the-angel-next-door-spoils-me-rotten-new-years-visual-e1672719662706.jpg?fit=1460%2C825&ssl=1) no-repeat center center !important;
+    background-size: cover !important;
+    border-bottom: transparent;
+    border-top: transparent;
+    border-left: transparent !important;
+    border-right: transparent !important;
+    box-shadow: none;
+}
+
+.icon-btn:nth-child(6) {
+    background: url(https://preview.redd.it/art-the-angel-next-door-spoils-me-rotten-volume-7-covers-v0-uqh71pnth8h91.jpg?width=640&crop=smart&auto=webp&s=578c9f6cf14288582824b4e37d511f63d23f3592) no-repeat center center !important;
+    background-size: cover !important;
+    border-bottom: transparent;
+    border-top: transparent;
+    border-left: transparent !important;
+    border-right: transparent !important;
+    box-shadow: none;
+}
+
+.icon-btn:nth-child(7) {
+    background: url(https://a.storyblok.com/f/178900/708x1000/789aafd4b6/the_angel_next_door_spoils_me_rotten_season_two_teaser_art2.jpg) no-repeat center center !important;
+    background-size: cover !important;
+    border-bottom: transparent;
+    border-top: transparent;
+    border-left: transparent !important;
+    border-right: transparent !important;
+    box-shadow: none;
+}
+
+#icon-store:hover {
+    border-top: transparent;
+}
+
+.icon-btn:nth-child(1):hover {
+    border-top: transparent;
+}
+
+.icon-btn:nth-child(3):hover {
+    border-top: transparent;
+}
+
+.icon-btn:nth-child(5):hover {
+    border-top: transparent;
+}
+
+.right-icons .inventory-card {
+    -webkit-transform: translateX(-38px);
+    right: -96%;
+    margin-top: -40% !important;
+    transition: ease-in-out 0.4s;
+}
+
+.inventory-card:hover {
+    transform: translateX(-140px);
+}
+
+.right-icons .icon-btn {
+    display: none;
+    position: absolute;
+    right: -75%;
+    width: 100%;
+    opacity: 0;
+    transition: ease-in-out 0.4s;
+}
+
+    .right-icons .icon-btn:hover {
+        transform: translateX(-100px);
+    }
+
+.right-icons .svg-icon[data-v-b8de1e14] {
+    margin-left: -98%;
+    margin-bottom: -30%;
+}
+
+.right-icons .text-icon {
+    margin-right: -30%;
+    margin-top: 9%;
+}
+
+#app > div.interface.text-2 > div.play > button {
+    position: absolute;
+    top: 16px;
+    right: 111px;
+    color: white !important;
+    background: transparent !important;
+    border: 4px solid #26335b !important;
+}
+
+    #app > div.interface.text-2 > div.play > button:hover {
+        background: #37477c !important;
+        color: white !important;
+    }
+
+.moneys {
+    position: fixed;
+    border-right: transparent;
+    border-left: transparent;
+    left: 8% !important;
+    top: 85% !important;
+}
+
+    .moneys .money[style="--i:3;"] {
+        background: transparent;
+        border-top: transparent;
+        border-bottom: transparent;
+        border-right: transparent;
+        border-left: transparent;
+        box-shadow: none;
+    }
+
+    .moneys .money[style="--i:2;"] {
+        background: transparent;
+        border-top: transparent;
+        border-bottom: transparent;
+        border-right: transparent;
+        border-left: transparent;
+        box-shadow: none;
+    }
+
+.settings {
+    background-color: transparent !important;
+    border-bottom: transparent !important;
+    border-top: transparent !important;
+    border-right: transparent;
+    border-left: transparent;
+    margin-top: 40px;
+}
+
+/* Containers */
+.background, .clans, .hub-container {
+    background: transparent !important;
+}
+
+.tabs {
+    background: transparent !important;
+    border-bottom: none !important;
+    box-shadow: none !important;
+    border-right: none !important;
+}
+
+.active-tab {
+    background: transparent !important;
+    border-right: none !important;
+    border-left: none !important;
+}
+
+.tab {
+    background: transparent !important;
+    border-left: none !important;
+    border-right: none !important;
+}
+
+.head-text {
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+.add-friends {
+    background: transparent !important;
+}
+
+.limit {
+    border-left: none !important;
+}
+
+.top-bar, .home, .name-page {
+    display: none !important;
+}
+
+.container {
+    background: transparent !important;
+    backdrop-filter: blur(5px);
+    box-shadow: none !important;
+    border-radius: 0 !important;
+}
+
+    .container .container-card[data-v-747e6ab9] {
+        background: #101216 !important;
+        box-shadow: none !important;
+        border: none !important;
+        margin-right: 30%;
+        margin-bottom: 10%;
+    }
+
+.champions-list {
+    box-shadow: none !important;
+}
+
+.reset-time, .info-awards, .news {
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+.settings .input {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.container .box {
+    background: transparent;
+    border: none;
+}
+
+/* Clans */
+.clans {
+    background: transparent !important;
+}
+
+.champions-list {
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+.clans .items .item {
+    background: transparent !important;
+}
+
+.my-clan .card-cont {
+    background: transparent;
+    box-shadow: none;
+}
+
+.my-clan .list-container {
+    background: transparent;
+    box-shadow: none;
+}
+
+    .my-clan .list-container .list .item .item-content {
+        background: transparent;
+    }
+
+/* Inventory */
+.tab-bar {
+    background: transparent !important;
+}
+
+.subjects {
+    background: transparent !important;
+    border: none !important;
+}
+
+.subject {
+    background: transparent !important;
+}
+
+.inventory .avatar-head {
+    display: none;
+}
+
+.inventory .avatar {
+    background: transparent !important;
+}
+
+.gun {
+    background: transparent !important;
+    border: none !important;
+}
+
+.inventory .bottom {
+    background: transparent !important;
+    backdrop-filter: blur(2px) !important;
+    background-image: linear-gradient(to left, rgba(246, 255, 0, 0), #e2e04f1c) !important;
+}
+
+/* End Game Screen */
+.end-modal {
+    background: url(https://media.discordapp.net/attachments/529192409305710602/902459779144900628/FcQshr.png?width=1168&height=657) !important;
+}
+
+    .end-modal .content {
+        border-bottom: none !important;
+    }
+
+/* HUD */
+.mini-map-cont .name,
+.info-key-cont,
+.list-weapons,
+.hp-title,
+.mWwn,
+.instruction {
+    display: none !important;
+}
+
+.hp {
+    margin-right: 20%;
+}
+
+.hp-progress {
+    background: #8bff9f !important;
+}
+
+.desktop-game-interface .state {
+    position: fixed;
+    left: 37% !important;
+}
+
+.cont-endurance {
+    margin-left: 1.5%;
+}
+
+.weapons-cont {
+    position: fixed;
+    width: 300px;
+    top: 95%;
+    left: 5%;
+    margin-top: -100px;
+    margin-left: 252px;
+}
+
+.ammunition {
+    display: inline-block;
+    position: fixed;
+    left: calc(38% + 188px);
+}
+
+.kill-death {
+    position: fixed;
+    background: url(https://w7.pngwing.com/pngs/912/598/png-transparent-anime-girl-thumbnail.png) center !important;
+    bottom: 2%;
+    left: unset !important;
+    top: unset !important;
+}
+
+/* Chat */
+.chat {
+    margin-bottom: -4%;
+}
+
+/* Profile */
+.auth-form {
+    background: transparent !important;
+    border-bottom: transparent !important;
+    border-top: transparent !important;
+    box-shadow: none !important;
+}
+
+.profile .avatar-info, .profile .level, .exp-values {
+    display: none;
+}
+
+.user-info {
+    visibility: hidden;
+}
+
+.progress-lvl {
+    visibility: visible;
+    position: fixed;
+    width: 150px;
+    left: 50%;
+    margin-left: -92px;
+}
+
+.heads .levels {
+    color: red !important;
+}
+
+.heads .clan-tag {
+    -webkit-animation: glow 2s ease-in-out infinite alternate;
+    -moz-animation: glow 2s ease-in-out infinite alternate;
+    animation: glow 2s ease-in-out infinite alternate;
+}
+
+.card-profile {
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+.profile .k-d {
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+.profile .statistics {
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+.profile-cont .progress[data-v-d2be3bc6] {
+    background: transparent;
+    box-shadow: none;
+}
+
+/* Timer and Score */
+.state-cont .timer {
+    position: fixed;
+    width: 300px;
+    left: 50%;
+    margin-left: -150px;
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+.team-score .label {
+    margin: 26.5px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+/* Input */
+.custom-checkbox > span[data-v-47e1b746]:before {
+    border-radius: 50px;
+    background-color: white;
+    border: none;
+}
+
+.custom-checkbox > input:checked + span[data-v-47e1b746]:before {
+    background-color: #2ac144;
+}
