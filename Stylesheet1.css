@@ -1,4 +1,4 @@
-﻿/*
+/*
 Kirka.io Public Browser CSS
 Made By: NizzQ
 
@@ -83,7 +83,7 @@ Recommended Resolution: 1920x1080 FULLSCREEN
 }
 
     .soc-group:nth-child(2):hover {
-        background: none !important;
+        background: transparent !important;
     }
 
 .interface .logo {
@@ -97,6 +97,7 @@ Recommended Resolution: 1920x1080 FULLSCREEN
     border-bottom: transparent !important;
     border-left: transparent !important;
     border-right: transparent !important;
+    border-radius: 16px;
 }
 
 #icon-store {
@@ -107,6 +108,7 @@ Recommended Resolution: 1920x1080 FULLSCREEN
     border-left: transparent !important;
     border-right: transparent !important;
     box-shadow: none !important;
+    border-radius: 16px;
 }
 
 .left-icons .icon-btn:nth-child(1) {
@@ -116,6 +118,7 @@ Recommended Resolution: 1920x1080 FULLSCREEN
     border-bottom: transparent;
     border-left: transparent !important;
     border-right: transparent !important;
+    border-radius: 16px;
     box-shadow: none;
 }
 
@@ -126,6 +129,7 @@ Recommended Resolution: 1920x1080 FULLSCREEN
     border-top: transparent;
     border-left: transparent !important;
     border-right: transparent !important;
+    border-radius: 16px;
     box-shadow: none;
 }
 
@@ -136,6 +140,7 @@ Recommended Resolution: 1920x1080 FULLSCREEN
     border-top: transparent;
     border-left: transparent !important;
     border-right: transparent !important;
+    border-radius: 16px;
     box-shadow: none;
 }
 
@@ -146,6 +151,7 @@ Recommended Resolution: 1920x1080 FULLSCREEN
     border-top: transparent;
     border-left: transparent !important;
     border-right: transparent !important;
+    border-radius: 16px;
     box-shadow: none;
 }
 
@@ -156,6 +162,7 @@ Recommended Resolution: 1920x1080 FULLSCREEN
     border-top: transparent;
     border-left: transparent !important;
     border-right: transparent !important;
+    border-radius: 16px;
     box-shadow: none;
 }
 
@@ -215,11 +222,10 @@ Recommended Resolution: 1920x1080 FULLSCREEN
     right: 111px;
     color: white !important;
     background: transparent !important;
-    border: 4px solid #26335b !important;
 }
 
     #app > div.interface.text-2 > div.play > button:hover {
-        background: #37477c !important;
+        background: transparent !important;
         color: white !important;
     }
 
